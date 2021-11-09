@@ -77,7 +77,7 @@ class Controller
             string section_name = "";
             for(int i = 1; i < sp1.Length; i++)
             {
-                section_name += sp[i];
+                section_name += sp1[i];
             }
             ListOfSectionCategories(section_name);
         }
@@ -86,7 +86,7 @@ class Controller
             string category_name = "";
             for(int i = 1; i < sp1.Length; i++)
             {
-                category_name += sp[i];
+                category_name += sp1[i];
             }
             ListOfCategoryProducts(category_name);
         }
